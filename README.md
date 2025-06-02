@@ -52,7 +52,7 @@ archive/
 ├── drivers.csv
 ├── constructors.csv
 └── qualifying.csv
-main.py # This script
+algoritmo1.py 
 
 
 
