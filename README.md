@@ -1,7 +1,7 @@
 
-##
+
 ##🏎️ F1 Position Predictor
-##
+
 This project uses historical Formula 1 data to train a machine learning model that predicts a driver's final race position based on their starting grid position, qualifying results, and other relevant factors.
 
 ##📊 Description
