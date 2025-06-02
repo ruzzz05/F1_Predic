@@ -43,16 +43,9 @@ All CSV files were obtained from this public Kaggle dataset:
 
 - Simulate predictions for all current drivers at a specific circuit (e.g., `circuitId = 4`).
 - If a driver has no past data on that circuit, their most recent general data is used as fallback.
+  
 
-## 📁 File Structure
-
-archive/
-├── results.csv
-├── races.csv
-├── drivers.csv
-├── constructors.csv
-└── qualifying.csv
-algoritmo1.py 
+<pre> ## 📁 File Structure ``` archive/ ├── results.csv ├── races.csv ├── drivers.csv ├── constructors.csv └── qualifying.csv main.py # This script ``` </pre>
 
 
 
