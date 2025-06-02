@@ -45,7 +45,6 @@ All CSV files were obtained from this public Kaggle dataset:
 - If a driver has no past data on that circuit, their most recent general data is used as fallback.
   
 
-<pre> ## 📁 File Structure ``` archive/ ├── results.csv ├── races.csv ├── drivers.csv ├── constructors.csv └── qualifying.csv main.py # This script ``` </pre>
 
 
 
