@@ -1,10 +1,10 @@
 
 ##
-🏎️ F1 Position Predictor
+##🏎️ F1 Position Predictor
 ##
 This project uses historical Formula 1 data to train a machine learning model that predicts a driver's final race position based on their starting grid position, qualifying results, and other relevant factors.
 
-📊 Description
+##📊 Description
 A regression model based on RandomForestRegressor from scikit-learn is trained using merged data from:
 
 Race results (results.csv)
@@ -29,11 +29,11 @@ Encoded team (constructor) ID
 
 The model predicts the final race position (position) of each driver.
 
-📌 Data Source:
+##📌 Data Source:
 All CSV files were obtained from this public Kaggle dataset:
 Formula 1 World Championship (1950 - 2020) by Rohan Rao
 
-🧠 How It Works
+##🧠 How It Works
 Data Preprocessing:
 
 Merge multiple CSV files into a single dataset.
@@ -54,7 +54,7 @@ Simulate predictions for all current drivers at a specific circuit (e.g., circui
 
 If a driver has no past data on that circuit, their most recent general data is used as fallback.
 
-📁 File Structure
+##📁 File Structure
 bash
 Copiar
 Editar
@@ -65,7 +65,7 @@ archive/
 ├── constructors.csv
 └── qualifying.csv
 main.py  # This script
-📦 Requirements
+##📦 Requirements
 Python 3.8+
 
 pandas
@@ -78,7 +78,7 @@ bash
 Copiar
 Editar
 pip install pandas scikit-learn
-🚀 Running the Project
+##🚀 Running the Project
 Make sure the archive folder contains the necessary CSV files. Then, run:
 
 bash
@@ -87,5 +87,5 @@ Editar
 python main.py
 You'll see a simulated classification output for current F1 drivers at the selected circuit.
 
-📄 License
+##📄 License
 This project is open-source and available under the MIT License.
